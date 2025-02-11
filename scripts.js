@@ -224,3 +224,18 @@ solution
 // if  scores >= 50  print C  -3.00 -second Class Honours,lower
 // if  scores >= 45 print D  -2.00 -third Class 
 // if not print fail
+function gradePoint(score){
+    if(score >= 70){
+        return "A - 5.00 - FIrst Class Honours";
+    }else if(score >= 60){
+        return "B - 4.00 - Second Class Honours, Upper";
+    }else if(score >= 50){
+        return "C - 3.00 - Second Class Honours, Lower";
+    }else if(score >= 45){
+        return "D - 2.00 - Third Class";
+    }else {
+        return "Fail";
+    }
+        
+        
+}
